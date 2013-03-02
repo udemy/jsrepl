@@ -1,24 +1,3 @@
-@JSREPL::Languages::qbasic =
-  system_name: 'qbasic'
-  name: 'Quick Basic'
-  extension: 'bas'
-  matchings: []
-  scripts: [
-    'extern/qb.js/Base.js'
-    'extern/qb.js/Tokenizer.js'
-    'extern/qb.js/Types.js'
-    'extern/qb.js/EarleyParser.js'
-    'extern/qb.js/RuleSet.js'
-    'extern/qb.js/RuleParser.js'
-    'extern/qb.js/TypeChecker.js'
-    'extern/qb.js/CodeGenerator.js'
-    'extern/qb.js/VirtualMachine.js'
-    'extern/qb.js/QBasic.js'
-  ]
-  includes: []
-  engine: 'langs/qbasic/jsrepl_qbasic.coffee'
-  minifier: 'closure'
-
 @JSREPL::Languages::scheme =
   system_name: 'scheme'
   name: 'Scheme'
