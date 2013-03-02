@@ -1,3 +1,27 @@
+###
+@JSREPL::Languages::qbasic =
+  system_name: 'qbasic'
+  name: 'Quick Basic'
+  extension: 'bas'
+  matchings: []
+  scripts: [
+    'extern/qb.js/Base.js'
+    'extern/qb.js/Tokenizer.js'
+    'extern/qb.js/Types.js'
+    'extern/qb.js/EarleyParser.js'
+    'extern/qb.js/RuleSet.js'
+    'extern/qb.js/RuleParser.js'
+    'extern/qb.js/TypeChecker.js'
+    'extern/qb.js/CodeGenerator.js'
+    'extern/qb.js/VirtualMachine.js'
+    'extern/qb.js/QBasic.js'
+  ]
+  includes: []
+  engine: 'langs/qbasic/jsrepl_qbasic.coffee'
+  minifier: 'closure'
+###
+
+###
 @JSREPL::Languages::scheme =
   system_name: 'scheme'
   name: 'Scheme'
@@ -38,6 +62,8 @@
   includes: []
   engine: 'langs/scheme/jsrepl_scheme.coffee'
   minifier: 'yui'
+###
+
 
 @JSREPL::Languages::javascript =
   system_name: 'javascript'
@@ -55,6 +81,7 @@
   engine: 'langs/javascript/jsrepl_js.coffee'
   minifier: 'closure'
 
+###
 @JSREPL::Languages::coffeescript =
   system_name: 'coffeescript'
   name: 'CoffeeScript'
@@ -71,7 +98,9 @@
   includes: []
   engine: 'langs/coffee-script/jsrepl_coffee.coffee'
   minifier: 'uglify'
+###
 
+###
 @JSREPL::Languages::brainfuck =
   system_name: 'brainfuck'
   name: 'Brainfuck'
@@ -85,7 +114,9 @@
   includes: []
   engine: 'langs/brainfuck/jsrepl_brainfuck.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::unlambda =
   system_name: 'unlambda'
   name: 'Unlambda'
@@ -97,7 +128,9 @@
   includes: []
   engine: 'langs/unlambda/jsrepl_unlambda.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::lolcode =
   system_name: 'lolcode'
   name: 'LOLCODE'
@@ -113,7 +146,9 @@
   includes: []
   engine: 'langs/lolcode/jsrepl_lolcode.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::kaffeine =
   system_name: 'kaffeine'
   name: 'Kaffeine'
@@ -130,7 +165,9 @@
   includes: []
   engine: 'langs/kaffeine/jsrepl_kaffeine.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::move =
   system_name: 'move'
   name: 'Move'
@@ -147,7 +184,9 @@
   includes: []
   engine: 'langs/move/jsrepl_move.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::traceur =
   system_name: 'traceur'
   name: 'Traceur'
@@ -250,7 +289,9 @@
   includes: []
   engine: 'langs/traceur/jsrepl_traceur.coffee'
   minifier: 'closure_es5'
+###
 
+###
 @JSREPL::Languages::emoticon =
   system_name: 'emoticon'
   name: 'Emoticon'
@@ -264,7 +305,9 @@
   includes: []
   engine: 'langs/emoticon/jsrepl_emoticon.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::bloop =
   system_name: 'bloop'
   name: 'Bloop/Floop'
@@ -276,7 +319,9 @@
   includes: []
   engine: 'langs/bloop/jsrepl_bloop.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::forth =
   system_name: 'forth'
   name: 'Forth'
@@ -291,7 +336,9 @@
   includes: []
   engine: 'langs/forth/jsrepl_forth.coffee'
   minifier: 'closure'
+###
 
+###
 @JSREPL::Languages::lua =
   system_name: 'lua'
   name: 'Lua'
@@ -309,6 +356,7 @@
   engine: 'langs/lua/jsrepl_lua.coffee'
   minifier: 'none'
   emscripted: true
+###
 
 @JSREPL::Languages::python =
   system_name: 'python'
@@ -358,6 +406,7 @@
   minifier: 'none'
   emscripted: true
 
+###
 @JSREPL::Languages::roy =
   system_name: 'roy'
   name: 'Roy'
@@ -374,3 +423,4 @@
   includes: []
   engine: 'langs/roy/jsrepl_roy.coffee'
   minifier: 'closure'
+###
